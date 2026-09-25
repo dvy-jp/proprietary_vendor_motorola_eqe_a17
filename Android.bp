@@ -14681,6 +14681,8 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libgui_shim_vendor",
+                // Restores the Android 16 BufferItemConsumer ABI.
+                "libgui_buffer_shim_vendor",
                 "libutils",
                 "libcutils",
                 "liblog",
